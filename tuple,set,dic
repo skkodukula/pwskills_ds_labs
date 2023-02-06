@@ -1,0 +1,1082 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ffc1745a-163c-488c-be06-d0262c75dd56",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# what are the characterstics of the tuples? is tuple immutable\n",
+    " *Tuples are ordered, indexed collections of data \n",
+    "    * tuples can be store duplicate values\n",
+    "    * Once data is assigned to a tuple, the values cannot be changed\n",
+    "    * Tuple allow you to store several data items in one variable\n",
+    "* tuples are immutable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "73123a10-f78e-48f5-a64b-0d8b56ad69b9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# what are 2 tuple methods in python\n",
+    " * count\n",
+    " * index\n",
+    "# give an example of each method \n",
+    "  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "5b52975e-d9c7-49e0-a6f3-397702b2848c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t1 = (1,2,3,4,67,18)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "e476e148-c0b6-4c3c-a6ae-8820cb8d1cb9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.count(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "99d82be3-63f2-47ea-b28d-49b66acfb0b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.count(4)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "bf5cb9dd-6963-438b-be76-406ab0a8ad79",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.count(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "6e5039e7-87e5-4639-a1bd-dc01ecb58fbb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.count(8)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "66483d9a-f151-4e5e-b939-5fa78678841e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.index(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "590668fe-8176-4591-8bb1-91d85b83d8af",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.index(3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "07f34c94-7dff-41bf-9ba7-58a2364c7bbe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.index(4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "d6813edb-65df-4cf5-aeb0-f3210193afea",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t1.index(18)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6309e415-db03-4121-9add-9b816c5fe25e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Give a reason why tupule have only two in built methods as compared to lists \n",
+    " tuple are immuatable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "248df838-9c87-4e1a-8ac4-b66b441a9832",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "fe5b6425-80fb-4749-af53-dcc2d4dca17e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 1,\n",
+       " 1,\n",
+       " 2,\n",
+       " 1,\n",
+       " 3,\n",
+       " 1,\n",
+       " 4,\n",
+       " 2,\n",
+       " 1,\n",
+       " 2,\n",
+       " 2,\n",
+       " 2,\n",
+       " 3,\n",
+       " 2,\n",
+       " 4,\n",
+       " 3,\n",
+       " 1,\n",
+       " 3,\n",
+       " 2,\n",
+       " 3,\n",
+       " 3,\n",
+       " 3,\n",
+       " 4,\n",
+       " 4,\n",
+       " 1,\n",
+       " 4,\n",
+       " 2,\n",
+       " 4,\n",
+       " 3,\n",
+       " 4,\n",
+       " 4]"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "afac7e62-5f49-49f3-8781-c4e1188c3bf7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list=[1,1,1,2,1,3,1,4,2,1,2,2,2,3,2,4,3,1,3,2,3,3,3,4,4,1,4,2,4,3,4,4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "0fe5466c-8a82-4104-8c0b-4cdf29417bf4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1={1,1,1,2,1,3,1,4,2,1,2,2,2,3,2,4,3,1,3,2,3,3,3,4,4,1,4,2,4,3,4,4}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "3705a12e-1adf-48d8-971d-ac65d2a740e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 3, 4, 5}"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fb78723b-ec7e-44d6-b263-05048680f4e5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# set donot allow duplicate items"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3e165231-e62d-46c0-b7da-15847bfe40e6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "14b47ef9-c78f-4f19-b341-61d5c3fcb87e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'dict' object has no attribute 'union'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[63], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ms\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43munion\u001b[49m(t)\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'dict' object has no attribute 'union'"
+     ]
+    }
+   ],
+   "source": [
+    "s.union(t) s|t new set with elements from both s and t \n",
+    "s.update(t) s|=t return set s with elements added from t"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "8bd6329c-8584-410e-934e-79466e53c872",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 3, 4, 5}"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.union()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "a6d43afa-889d-4437-898d-ee3a686c1c7d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t2=(1,2,3,4,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "68fece4c-75f6-418c-a7e6-e49cf2787196",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1, 2, 3, 4, 5)"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "a3bb583f-ab68-4b86-882d-2b498ed9d4d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 3, 4, 5}"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.union(t2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "17b948c2-34ff-410f-b666-ac078f0b493d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1.update(t2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "4d7c272c-b4d2-4451-b52a-5b9e1f88b402",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t2= (1,24,55,68,90)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "fa746028-eafc-4ee9-9fa0-a31ba7477a44",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1, 24, 55, 68, 90)"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "58511148-3640-47d3-b6c8-959afc8aa98f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 3, 4, 5, 24, 55, 68, 90}"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.union(t2)S"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b9ebb3d3-af8d-40a6-9202-9a866e10011e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 5 what is dictionary? give an example \n",
+    " dictionary is to store values in key: value pairs. A dictionary is collection which is ordered changeable and donott allow duplicates "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "0a93f170-ac88-4697-8c63-393ed307b1f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d1 = {\"name\" :\"mahati\" , \"number\": 123467}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "2040cd90-5813-4a53-8b6c-a20b5c8f7d85",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'name': 'mahati', 'number': 123467}"
+      ]
+     },
+     "execution_count": 96,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "84f23f94-56ef-4f7d-b4e8-96e28d807c43",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 6 can we created nested dictionary \n",
+    " yes we create nested dictionary "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "ca54fec5-9246-4bad-898d-87c16362ae13",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d2 = {'d3':{\"name\":\"lahari\",\"email_id\":\"lahari@gmail.com\",\"code\":13425},'d4':{\"name\":\"lavanya\",\"email_id\":\"lavanya@gmail.com\",\"code\":32456}}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "dbeabaa7-27d6-4aa9-9e9e-b33861c79aed",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'d3': {'name': 'lahari', 'email_id': 'lahari@gmail.com', 'code': 13425},\n",
+       " 'd4': {'name': 'lavanya', 'email_id': 'lavanya@gmail.com', 'code': 32456}}"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f75a87d0-df73-4d11-87fd-89458902ce23",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#7 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "b1e6dae6-3438-4cc3-8475-757791d5f7f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d2={\"languauge\":\"java\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "7f8ef584-8166-4e0e-bb69-ddb6b8599547",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'languauge': 'java'}"
+      ]
+     },
+     "execution_count": 109,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "bcc1774c-9d99-416c-9d12-a32d584e5034",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 114,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(d2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "47aa4d34-248b-4ab8-9ec9-952263373f00",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'languauge': 'java'}"
+      ]
+     },
+     "execution_count": 117,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "4bb5998c-f492-48f9-b1f4-6ec667a01b0b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "d2= {'language': 'java', 'd3': ('python', 'machine learning', 'deep learning')}\n",
+      "d3= ('python', 'machine learning', 'deep learning')\n"
+     ]
+    }
+   ],
+   "source": [
+    "d2={\"language\": \"java\",\"d3\":(\"python\",\"machine learning\",\"deep learning\")}\n",
+    "d3=d2.setdefault(\"d3\")\n",
+    "print(\"d2=\",d2)\n",
+    "print(\"d3=\",d3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "37d6619f-caf2-4c2a-9ef3-1a896f2f9aa4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dic1={\"language\":\"python\",\"course\":\"Data science\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "241262f7-49ee-4de6-b2af-16e834ae3e5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dic1= {'language': 'python', 'course': 'Data science', 'dic2': ('python', 'machine learning', 'deep learning')}\n",
+      "dic2= ('python', 'machine learning', 'deep learning')\n"
+     ]
+    }
+   ],
+   "source": [
+    "dic1={\"language\":\"python\",\"course\":\"Data science\",\"dic2\":(\"python\",\"machine learning\",\"deep learning\")}\n",
+    "dic2=dic1.setdefault(\"dic2\")\n",
+    "print(\"dic1=\",dic1)\n",
+    "print(\"dic2=\",dic2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7da2dc79-b6ea-4cc5-985b-9e6864dc6c7f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " # 8 what are 3 view objects in dictionary\n",
+    "    keys values, items\n",
+    "    # Use the 3 inbuilt methods in python and display this three view objects for the given dictionary \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "0d2378ce-c20b-41bd-9dee-f59f3eecbfd4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dic1={\"sports\":\"cricket\",\"Team\":[\"India\",\"Australia\",\"Srilanka\",\"England\",\"South Africa\",\"New zealand\"]}\n",
+    "      \n",
+    "      "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "50891507-5c8c-4335-9958-717fff906c89",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'sports': 'cricket',\n",
+       " 'Team': ['India',\n",
+       "  'Australia',\n",
+       "  'Srilanka',\n",
+       "  'England',\n",
+       "  'South Africa',\n",
+       "  'New zealand']}"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "fcf6b993-1ea6-475c-a1ba-55365122b623",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'sports': 'cricket',\n",
+       " 'Team': ['India',\n",
+       "  'Australia',\n",
+       "  'Srilanka',\n",
+       "  'England',\n",
+       "  'South Africa',\n",
+       "  'New zealand']}"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "7de6065f-3745-4074-8aa3-2e7cff270713",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_keys(['sports', 'Team'])"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1.keys()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "32012e5b-7c72-45bc-9113-0562290de353",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'sports': 'cricket'}"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1.copy()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "a3bb8616-932c-42d6-b3d5-e6c0cd20f708",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "None\n"
+     ]
+    }
+   ],
+   "source": [
+    "dic1={\"sports\":\"cricket\",\n",
+    "      \"Team\":\"New zealand\"}\n",
+    "dic2=dic1.get(\"New zealand\")\n",
+    "print(dic2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "72ae859a-e5e4-4155-90c5-01e40d2e0fc0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'sports': 'cricket', 'Team': 'New zealand'}"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "7afb868e-07bd-4ae4-8da5-c1337ad698f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dic1={\"sports\":\"cricket\",\"Team\":[\"India\",\"Australia\",\"Srilanka\",\"England\",\"South Africa\",\"New zealand\"]}\n",
+    "      "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "af7bd149-884f-48e3-8adc-5863f5fad1ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'sports': 'cricket',\n",
+       " 'Team': ['India',\n",
+       "  'Australia',\n",
+       "  'Srilanka',\n",
+       "  'England',\n",
+       "  'South Africa',\n",
+       "  'New zealand']}"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "bf8605e3-00d0-483a-9079-9c5bc9696f66",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dic1.clear()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "6356bf16-0c89-4b47-b07f-2f6d65379d48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{}"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dic1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da50a487-accd-434e-81de-13db158a7ec1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c99007ad-d791-4047-bbe9-95b61c4aa02c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "79bee8a3-6f0b-47da-a0ed-ed3d0cbed4eb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "76e74435-de2f-4374-9150-3547e2e00984",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b1b5ec17-7210-4a60-9a01-dbd0d2d5be95",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d9e3625f-c170-47e8-9bd8-04594ab7c7f9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e6345c94-27cd-4261-9cdf-ce716e04fdfb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e667ec40-6005-4dc5-a0d9-ba19b3729aca",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dcc26812-f819-4b27-aa6b-d95f88a88e9d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a4be69b2-2342-442d-b056-a47788a0d67b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "496c895e-f28f-44bc-b6ba-355b601f7538",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1260e273-dda1-4d91-be44-cdc06e43a550",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e581cc2d-dfd9-4181-b468-1e17cfd4c06e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
